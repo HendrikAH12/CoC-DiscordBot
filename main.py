@@ -36,12 +36,14 @@ async def on_message(message):
             if user_message.lower() == '!feitiços 8' or user_message.lower() == '!feiticos 8':
                 embed = discord.Embed(title="Número de feitiços por defesa", description="Defesa Aérea:\n- Nv9: 3 Raios - Nv10: 3 Raios\n- Nv11: 4 Raios - Nv12: 4 Raios\n\n"
                 + "Torre Inferno:\n- Nv5: 4 Raios + 1 Terremoto\n- Nv6: 5 Raios + 1 Terremoto\n- Nv7: 5 Raios + 1 Terremoto\n- Nv8: 6 Raios + 1 Terremoto\n\n"
+                + "X-Besta:\n- Nv5: 5 Raios + 1 Terremoto\n- Nv6: 6 Raios + 1 Terremoto\n- Nv7: 6 Raios + 1 Terremoto\n- Nv8: 7 Raios + 1 Terremoto\n\n"
                 + "Artilharia Águia:\n- Nv2: 7 Raios + 1 Terremoto\n- Nv3: 8 Raios + 1 Terremoto\n- Nv4: 8 Raios + 1 Terremoto\n- Nv5: 9 Raios + 1 Terremoto\n\n"
                 + "Disseminador:\n- Nv1: 6 Raios + 1 Terremoto\n- Nv2: 7 Raios + 1 Terremoto\n- Nv3: 8 Raios + 1 Terremoto\n\n"
                 + "Cálculos feitos utilizando Raio Nv8 e Terremoto Nv5", color=0x351C75)
             else:
                 embed = discord.Embed(title="Número de feitiços por defesa", description="Defesa Aérea:\n- Nv9: 3 Raios - Nv10: 3 Raios\n- Nv11: 3 Raios - Nv12: 3 Raios\n\n"
                 + "Torre Inferno:\n- Nv5: 4 Raios + 1 Terremoto\n- Nv6: 4 Raios + 1 Terremoto\n- Nv7: 5 Raios + 1 Terremoto\n- Nv8: 5 Raios + 1 Terremoto\n\n"
+                + "X-Besta:\n- Nv5: 4 Raios + 1 Terremoto\n- Nv6: 5 Raios + 1 Terremoto\n- Nv7: 5 Raios + 1 Terremoto\n- Nv8: 6 Raios + 1 Terremoto\n\n"
                 + "Artilharia Águia:\n- Nv2: 6 Raios + 1 Terremoto\n- Nv3: 7 Raios + 1 Terremoto\n- Nv4: 7 Raios + 1 Terremoto\n- Nv5: 8 Raios + 1 Terremoto\n\n"
                 + "Disseminador:\n- Nv1: 5 Raios + 1 Terremoto\n- Nv2: 6 Raios + 1 Terremoto\n- Nv3: 7 Raios + 1 Terremoto\n\n"
                 + "Cálculos feitos utilizando Raio Nv9 e Terremoto Nv5", color=0x351C75)
