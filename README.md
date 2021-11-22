@@ -1,7 +1,7 @@
 # CoC-DiscordBot
 
-Bot simples para discord programado em Python.
+Simple bot for discord programmed in Python.
 
-Objetivo: auxiliar jogadores de Clash of Clash disponibilizando algumas informações.
+Objective: assist Clash of Clash players by providing some information.
 
-O deploy do mesmo foi realizado na plataforma Heroku.
+deploy was performed at Heroku.
